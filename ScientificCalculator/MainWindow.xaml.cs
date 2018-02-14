@@ -173,11 +173,13 @@ namespace ScientificCalculator
         {
             if (this.currentOperator == Operator.Sinus)
             {
-                // TODO: Sinus methode aanroepen
+                this.TxtMain.Text = Operations.Sinus(decimal.Parse(this.TxtMain.Text)).ToString();
+
             }
             else
             {
-                // TODO: Sinus methode aanroepen
+                this.TxtMain.Text = Operations.Sinus(decimal.Parse(this.TxtMain.Text)).ToString();
+
             }
         }
 
@@ -224,6 +226,7 @@ namespace ScientificCalculator
         /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void BtnFactClick(object sender, RoutedEventArgs e)
         {
+            this.TxtMain.Text = Operations.Factorial(decimal.Parse(this.TxtMain.Text)).ToString();
             //TODO: factorial implementeren
         }
     }

@@ -59,8 +59,14 @@
         /// <returns>System.Decimal.</returns>
         public static decimal Factorial(decimal a)
         {
+
             // TODO: factorial implementeren
-            return a;
+            decimal result = 1;
+                for (int i = 0; i < a; i++)
+            {
+                result = result * (a - i);
+            }
+            return result;
         }
 
         public static decimal Power(decimal a, int b)
