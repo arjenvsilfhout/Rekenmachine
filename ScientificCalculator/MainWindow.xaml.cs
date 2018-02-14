@@ -53,7 +53,7 @@ namespace ScientificCalculator
         private void BtnOClick(object sender, RoutedEventArgs e)
         {
             var btnOperator = (Button)sender;
-            this.currentOperator = (Operator)Enum.Parse(typeof(Operator), btnOperator.Content.ToString());
+            this.currentOperator = (Operator)Enum.Parse(typeof(Operator), btnOperator.Name);
             this.num1 = decimal.Parse(this.TxtMain.Text);
             this.TxtMain.Text = "0";
         }

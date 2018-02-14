@@ -23,24 +23,24 @@
         <Button x:Name="BtnN5" Content="5" HorizontalAlignment="Left" Height="50" Margin="65,156,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14"/>
         <Button x:Name="BtnN7" Content="7" HorizontalAlignment="Left" Height="50" Margin="10,211,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14"/>
         <Button x:Name="BtnN4" Content="4" HorizontalAlignment="Left" Height="50" Margin="10,156,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14"/>
-        <Button x:Name="BtnO4" Content="Addition" HorizontalAlignment="Left" Height="50" Margin="175,266,0,0" VerticalAlignment="Top" Width="50"  FontSize="18" Background="#FFFBFBFB" Click="BtnOClick"/>
-        <Button x:Name="BtnO3" Content="Substraction"  HorizontalAlignment="Left" Height="50" Margin="175,211,0,0" VerticalAlignment="Top" Width="50" FontSize="18" Background="#FFFBFBFB" Click="BtnOClick"/>
-        <Button x:Name="BtnO2" Content="Multiplication" HorizontalAlignment="Left" Height="50" Margin="175,156,0,0" VerticalAlignment="Top" Width="50"  FontSize="18" Background="#FFFBFBFB" Click="BtnOClick"/>
-        <Button x:Name="BtnO1" Content="Division" HorizontalAlignment="Left" Height="50" Margin="175,101,0,0" VerticalAlignment="Top" Width="50" Click="BtnOClick" FontSize="18" Background="#FFFBFBFB"/>
+        <Button x:Name="Addition" Content="+" HorizontalAlignment="Left" Height="50" Margin="175,266,0,0" VerticalAlignment="Top" Width="50"  FontSize="18" Background="#FFFBFBFB" Click="BtnOClick"/>
+        <Button x:Name="Substraction" Content="-"  HorizontalAlignment="Left" Height="50" Margin="175,211,0,0" VerticalAlignment="Top" Width="50" FontSize="18" Background="#FFFBFBFB" Click="BtnOClick"/>
+        <Button x:Name="Multiplication" Content="x" HorizontalAlignment="Left" Height="50" Margin="175,156,0,0" VerticalAlignment="Top" Width="50"  FontSize="18" Background="#FFFBFBFB" Click="BtnOClick"/>
+        <Button x:Name="Division" Content="÷" HorizontalAlignment="Left" Height="50" Margin="175,101,0,0" VerticalAlignment="Top" Width="50" Click="BtnOClick" FontSize="18" Background="#FFFBFBFB"/>
         <Button x:Name="BtnEqual" Content="=" HorizontalAlignment="Left" Height="50" Margin="120,266,0,0" VerticalAlignment="Top" Width="50"  Background="Lime" FontSize="18" Click="BtnEqualClick" Grid.ColumnSpan="2"/>
         <Button x:Name="BtnDot" Content="." HorizontalAlignment="Left" Height="50" Margin="65,266,0,0" VerticalAlignment="Top" Width="50" Click="BtnDotClick" FontSize="14"/>
         <Button x:Name="BtnN" Content="0" HorizontalAlignment="Left" Height="50" Margin="10,266,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14"/>
         <Button x:Name="BtnN9" Content="9" HorizontalAlignment="Left" Height="50" Margin="120,211,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14" Grid.ColumnSpan="2"/>
         <Button x:Name="BtnN6" Content="6" HorizontalAlignment="Left" Height="50" Margin="120,156,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14" Grid.ColumnSpan="2"/>
         <Button x:Name="BtnN3" Content="3" HorizontalAlignment="Left" Height="50" Margin="120,101,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14" Grid.ColumnSpan="2"/>
-        <Button x:Name="BtnSin" Content="Sinus" HorizontalAlignment="Left" Height="50" Margin="285,101,0,0" VerticalAlignment="Top" Width="50" FontSize="14" Background="White" Click="BtnSinClick"/>
-        <Button x:Name="BtnPow" Content="Power" HorizontalAlignment="Left" Height="50" Margin="340,211,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="#FFFFF9F9" Click="BtnOClick"/>
-        <Button x:Name="BtnCos" Content="Cosinus" HorizontalAlignment="Left" Height="50" Margin="340,101,0,0" VerticalAlignment="Top" Width="50" FontSize="14" Background="White" Click="BtnCosClick"/>
-        <Button x:Name="BtnLog" Content="Logarithm" HorizontalAlignment="Left" Height="50" Margin="340,156,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnLogClick"/>
-        <Button x:Name="BtnSqrt" Content="Sqrt" HorizontalAlignment="Left" Height="50" Margin="285,211,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnSqrtClick"/>
-        <Button x:Name="BtnFact" Content="Factorial" HorizontalAlignment="Left" Height="50" Margin="285,156,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnFactClick"/>
-        <Button x:Name="BtnMod" Content="Modulo" HorizontalAlignment="Left" Height="50" Margin="340,266,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnOClick"/>
-        <Button x:Name="BtnTan" Content="Tangens" HorizontalAlignment="Left" Height="50" Margin="285,266,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnTanClick"/>
+        <Button x:Name="BtnSin" Content="Sin" HorizontalAlignment="Left" Height="50" Margin="285,101,0,0" VerticalAlignment="Top" Width="50" FontSize="14" Background="White" Click="BtnSinClick"/>
+        <Button x:Name="BtnPow" Content="^" HorizontalAlignment="Left" Height="50" Margin="340,211,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="#FFFFF9F9" Click="BtnOClick"/>
+        <Button x:Name="BtnCos" Content="Cos" HorizontalAlignment="Left" Height="50" Margin="340,101,0,0" VerticalAlignment="Top" Width="50" FontSize="14" Background="White" Click="BtnCosClick"/>
+        <Button x:Name="Logarithm" Content="Log" HorizontalAlignment="Left" Height="50" Margin="340,156,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnLogClick"/>
+        <Button x:Name="Sqrt" Content="√" HorizontalAlignment="Left" Height="50" Margin="285,211,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnSqrtClick"/>
+        <Button x:Name="Factorial" Content="!" HorizontalAlignment="Left" Height="50" Margin="285,156,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnFactClick"/>
+        <Button x:Name="Modulo" Content="Mod"  HorizontalAlignment="Left" Height="50" Margin="340,266,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnOClick"/>
+        <Button x:Name="Tangens" Content="Tan" HorizontalAlignment="Left" Height="50" Margin="285,266,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnTanClick"/>
         <Button x:Name="BtnClear" Content="C" HorizontalAlignment="Left" Height="50" Margin="10,46,0,0" VerticalAlignment="Top" Width="325" FontSize="18" Background="#FFFBFBFB" Click="BtnClearClick" Grid.ColumnSpan="2"/>
         <Button x:Name="BtnRemove" Content="⬅" HorizontalAlignment="Left" Height="50" Margin="340,46,0,0" VerticalAlignment="Top" Width="50" FontSize="22" Background="White" Click="BtnRemoveClick"/>
 
