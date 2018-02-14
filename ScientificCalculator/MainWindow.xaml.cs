@@ -142,18 +142,23 @@ namespace ScientificCalculator
                     this.TxtMain.Text = Operations.Add(this.num1, this.num2).ToString();
                     break;
                 case Operator.Substraction:
+                    this.TxtMain.Text = Operations.Substract(this.num1, this.num2).ToString();
                     // TODO: Aftrekken toevoegen
                     break;
                 case Operator.Multiplication:
+                    this.TxtMain.Text = Operations.Multiplicate(this.num1, this.num2).ToString();
                     // TODO: Vermenigvuldigen toevoegen
                     break;
                 case Operator.Division:
+                    this.TxtMain.Text = Operations.Divide(this.num1, this.num2).ToString();
                     // TODO: Delen toevoegen
                     break;
                 case Operator.Power:
+                    this.TxtMain.Text = Operations.Power(this.num1, (int)this.num2).ToString();
                     // TODO: Machten toevoegen (met als tweede getal een integer)
                     break;
                 case Operator.Modulo:
+                    this.TxtMain.Text = Operations.Modulo(this.num1, this.num2).ToString();
                     // TODO: Modulo toevoegen (gecompliceerde operator)
                     break;
             }
