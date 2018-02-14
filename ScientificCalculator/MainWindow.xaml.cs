@@ -168,42 +168,11 @@ namespace ScientificCalculator
         {
             if (this.currentOperator == Operator.Sinus)
             {
-                this.TxtMain.Text = Operations.Sinus(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
-            else if (this.num1 != 0 && this.currentOperator != Operator.Identity && this.num2 == 0)
-            {
-                this.TxtMain.Text = Operations.Sinus(this.num1).ToString();
+                // TODO: Sinus methode aanroepen
             }
             else
             {
-                this.num2 = decimal.Parse(this.TxtMain.Text);
-
-                ////////////////////////////////
-                switch (this.currentOperator)
-                {
-                    case Operator.Addition:
-                        this.TxtMain.Text = (this.num1 + this.num2).ToString();
-                        break;
-                    case Operator.Substraction:
-                        this.TxtMain.Text = (this.num1 - this.num2).ToString();
-                        break;
-                    case Operator.Multiplication:
-                        this.TxtMain.Text = (this.num1 * this.num2).ToString();
-                        break;
-                    case Operator.Division:
-                        this.TxtMain.Text = (this.num1 / this.num2).ToString();
-                        break;
-                    case Operator.Power:
-                        this.TxtMain.Text = Math.Pow(
-                            double.Parse(this.num1.ToString()),
-                            double.Parse(this.num2.ToString())).ToString();
-                        break;
-                    case Operator.Modulo:
-                        this.TxtMain.Text = (this.num1 % this.num2).ToString();
-                        break;
-                }
-
-                this.TxtMain.Text = Operations.Sinus(decimal.Parse(this.TxtMain.Text)).ToString();
+                // TODO: Sinus methode aanroepen
             }
         }
 
@@ -214,45 +183,6 @@ namespace ScientificCalculator
         /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void BtnCosClick(object sender, RoutedEventArgs e)
         {
-            if (this.currentOperator == Operator.Sinus)
-            {
-                this.TxtMain.Text = Operations.Cosinus(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
-            else if (this.num1 != 0 && this.currentOperator != Operator.Identity && this.num2 == 0)
-            {
-                this.TxtMain.Text = Operations.Cosinus(this.num1).ToString();
-            }
-            else
-            {
-                this.num2 = decimal.Parse(this.TxtMain.Text);
-
-                ////////////////////////////////
-                switch (this.currentOperator)
-                {
-                    case Operator.Addition:
-                        this.TxtMain.Text = (this.num1 + this.num2).ToString();
-                        break;
-                    case Operator.Substraction:
-                        this.TxtMain.Text = (this.num1 - this.num2).ToString();
-                        break;
-                    case Operator.Multiplication:
-                        this.TxtMain.Text = (this.num1 * this.num2).ToString();
-                        break;
-                    case Operator.Division:
-                        this.TxtMain.Text = (this.num1 / this.num2).ToString();
-                        break;
-                    case Operator.Power:
-                        this.TxtMain.Text = Math.Pow(
-                            double.Parse(this.num1.ToString()),
-                            double.Parse(this.num2.ToString())).ToString();
-                        break;
-                    case Operator.Modulo:
-                        this.TxtMain.Text = (this.num1 % this.num2).ToString();
-                        break;
-                }
-
-                this.TxtMain.Text = Operations.Cosinus(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
         }
 
         /// <summary>
@@ -262,45 +192,6 @@ namespace ScientificCalculator
         /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void BtnSqrtClick(object sender, RoutedEventArgs e)
         {
-            if (this.currentOperator == Operator.Sqrt)
-            {
-                this.TxtMain.Text = Operations.Sqrt(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
-            else if (this.num1 != 0 && this.currentOperator != Operator.Identity && this.num2 == 0)
-            {
-                this.TxtMain.Text = Operations.Sqrt(this.num1).ToString();
-            }
-            else
-            {
-                this.num2 = decimal.Parse(this.TxtMain.Text);
-
-                ////////////////////////////////
-                switch (this.currentOperator)
-                {
-                    case Operator.Addition:
-                        this.TxtMain.Text = (this.num1 + this.num2).ToString();
-                        break;
-                    case Operator.Substraction:
-                        this.TxtMain.Text = (this.num1 - this.num2).ToString();
-                        break;
-                    case Operator.Multiplication:
-                        this.TxtMain.Text = (this.num1 * this.num2).ToString();
-                        break;
-                    case Operator.Division:
-                        this.TxtMain.Text = (this.num1 / this.num2).ToString();
-                        break;
-                    case Operator.Power:
-                        this.TxtMain.Text = Math.Pow(
-                            double.Parse(this.num1.ToString()),
-                            double.Parse(this.num2.ToString())).ToString();
-                        break;
-                    case Operator.Modulo:
-                        this.TxtMain.Text = (this.num1 % this.num2).ToString();
-                        break;
-                }
-
-                this.TxtMain.Text = Operations.Sqrt(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
         }
 
         /// <summary>
@@ -310,45 +201,6 @@ namespace ScientificCalculator
         /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void BtnLogClick(object sender, RoutedEventArgs e)
         {
-            if (this.currentOperator == Operator.Sinus)
-            {
-                this.TxtMain.Text = Operations.Logarithm(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
-            else if (this.num1 != 0 && this.currentOperator != Operator.Identity && this.num2 == 0)
-            {
-                this.TxtMain.Text = Operations.Logarithm(this.num1).ToString();
-            }
-            else
-            {
-                this.num2 = decimal.Parse(this.TxtMain.Text);
-
-                ////////////////////////////////
-                switch (this.currentOperator)
-                {
-                    case Operator.Addition:
-                        this.TxtMain.Text = (this.num1 + this.num2).ToString();
-                        break;
-                    case Operator.Substraction:
-                        this.TxtMain.Text = (this.num1 - this.num2).ToString();
-                        break;
-                    case Operator.Multiplication:
-                        this.TxtMain.Text = (this.num1 * this.num2).ToString();
-                        break;
-                    case Operator.Division:
-                        this.TxtMain.Text = (this.num1 / this.num2).ToString();
-                        break;
-                    case Operator.Power:
-                        this.TxtMain.Text = Math.Pow(
-                            double.Parse(this.num1.ToString()),
-                            double.Parse(this.num2.ToString())).ToString();
-                        break;
-                    case Operator.Modulo:
-                        this.TxtMain.Text = (this.num1 % this.num2).ToString();
-                        break;
-                }
-
-                this.TxtMain.Text = Operations.Logarithm(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
         }
 
         /// <summary>
@@ -358,45 +210,6 @@ namespace ScientificCalculator
         /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void BtnTanClick(object sender, RoutedEventArgs e)
         {
-            if (this.currentOperator == Operator.Sinus)
-            {
-                this.TxtMain.Text = Operations.Tangens(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
-            else if (this.num1 != 0 && this.currentOperator != Operator.Identity && this.num2 == 0)
-            {
-                this.TxtMain.Text = Operations.Tangens(this.num1).ToString();
-            }
-            else
-            {
-                this.num2 = decimal.Parse(this.TxtMain.Text);
-
-                ////////////////////////////////
-                switch (this.currentOperator)
-                {
-                    case Operator.Addition:
-                        this.TxtMain.Text = (this.num1 + this.num2).ToString();
-                        break;
-                    case Operator.Substraction:
-                        this.TxtMain.Text = (this.num1 - this.num2).ToString();
-                        break;
-                    case Operator.Multiplication:
-                        this.TxtMain.Text = (this.num1 * this.num2).ToString();
-                        break;
-                    case Operator.Division:
-                        this.TxtMain.Text = (this.num1 / this.num2).ToString();
-                        break;
-                    case Operator.Power:
-                        this.TxtMain.Text = Math.Pow(
-                            double.Parse(this.num1.ToString()),
-                            double.Parse(this.num2.ToString())).ToString();
-                        break;
-                    case Operator.Modulo:
-                        this.TxtMain.Text = (this.num1 % this.num2).ToString();
-                        break;
-                }
-
-                this.TxtMain.Text = Operations.Tangens(decimal.Parse(this.TxtMain.Text)).ToString();
-            }
         }
 
         /// <summary>
@@ -406,7 +219,7 @@ namespace ScientificCalculator
         /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void BtnFactClick(object sender, RoutedEventArgs e)
         {
-            this.TxtMain.Text = Operations.Factorial(decimal.Parse(this.TxtMain.Text)).ToString();
+            //TODO: factorial implementeren
         }
     }
 }
