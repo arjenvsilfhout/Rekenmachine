@@ -34,7 +34,7 @@
         <Button x:Name="BtnN6" Content="6" HorizontalAlignment="Left" Height="50" Margin="120,156,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14" Grid.ColumnSpan="2"/>
         <Button x:Name="BtnN3" Content="3" HorizontalAlignment="Left" Height="50" Margin="120,101,0,0" VerticalAlignment="Top" Width="50" Click="BtnNumberClick" FontSize="14" Grid.ColumnSpan="2"/>
         <Button x:Name="BtnSin" Content="Sin" HorizontalAlignment="Left" Height="50" Margin="285,101,0,0" VerticalAlignment="Top" Width="50" FontSize="14" Background="White" Click="BtnSinClick"/>
-        <Button x:Name="BtnPow" Content="^" HorizontalAlignment="Left" Height="50" Margin="340,211,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="#FFFFF9F9" Click="BtnOClick"/>
+        <Button x:Name="Power" Content="^" HorizontalAlignment="Left" Height="50" Margin="340,211,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="#FFFFF9F9" Click="BtnOClick"/>
         <Button x:Name="BtnCos" Content="Cos" HorizontalAlignment="Left" Height="50" Margin="340,101,0,0" VerticalAlignment="Top" Width="50" FontSize="14" Background="White" Click="BtnCosClick"/>
         <Button x:Name="Logarithm" Content="Log" HorizontalAlignment="Left" Height="50" Margin="340,156,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnLogClick"/>
         <Button x:Name="Sqrt" Content="√" HorizontalAlignment="Left" Height="50" Margin="285,211,0,0" VerticalAlignment="Top" Width="50"  FontSize="14" Background="White" Click="BtnSqrtClick"/>
